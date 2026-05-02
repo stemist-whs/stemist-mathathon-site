@@ -2,18 +2,18 @@ import { Brain, Users, Zap } from "lucide-react";
 
 const rounds = [
   {
-    icon: Brain,
-    name: "Individual Round",
-    duration: "40 min",
-    desc: "Participants independently solve a series of math problems. Your own reasoning and problem-solving skills will be tested.",
-    accent: "from-primary/15 to-primary-glow/15",
-    iconColor: "text-primary",
-  },
-  {
     icon: Users,
     name: "Power Round",
     duration: "45 min",
     desc: "Teams of four collaborate on a small set of challenging problems that build on each other. Emphasizes teamwork, strategy, and deep problem-solving.",
+    accent: "from-primary/15 to-primary-glow/15",
+    iconColor: "text-primary",
+  },
+  {
+    icon: Brain,
+    name: "Individual Round",
+    duration: "40 min",
+    desc: "Participants independently solve a series of math problems. Your own reasoning and problem-solving skills will be tested.",
     accent: "from-accent/15 to-pink-300/15",
     iconColor: "text-accent",
   },
