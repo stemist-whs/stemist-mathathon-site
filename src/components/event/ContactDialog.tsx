@@ -85,7 +85,7 @@ export const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             {sending ? (<><Loader2 className="h-4 w-4 animate-spin mr-2" /> Sending…</>) : "Send Message"}
           </Button>
           <p className="text-xs text-muted-foreground text-center">
-            Sent to ssharda@joinstemist.org
+            Alternatively, message (408) 872 - 2032.
           </p>
         </form>
       </DialogContent>
