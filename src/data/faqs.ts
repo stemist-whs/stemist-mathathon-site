@@ -14,7 +14,7 @@ export const faqs: FAQ[] = [
   {
     question: "Is there a fee to participate?",
     answer:
-      "No — the STEMist Mathathon is completely free to enter. Donations are always appreciated and help us keep running events like this.",
+      "No — the STEMist Mathathon is completely free to enter. ",
   },
   {
     question: "What should my child bring to the event?",
