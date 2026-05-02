@@ -24,7 +24,7 @@ export const Hero = ({ onContactClick }: HeroProps) => {
           <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
         </div>
         <Button onClick={onContactClick} variant="cta" size="sm" className="hidden sm:inline-flex">
-          Mid-Event Contact
+          Event Contact Form
         </Button>
       </nav>
 
