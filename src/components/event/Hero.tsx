@@ -38,7 +38,7 @@ export const Hero = ({ onContactClick }: HeroProps) => {
         <h1 className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] leading-[0.95] mb-6 animate-float-up" style={{ animationDelay: "0.1s" }}>
           <span className="text-gradient">STEMist</span>
           <br />
-          <span className="italic font-normal">Mathathon</span>
+          <span className="font-normal">Mathathon</span>
         </h1>
 
         <p className="max-w-2xl text-lg md:text-xl text-muted-foreground mb-10 animate-float-up" style={{ animationDelay: "0.2s" }}>
