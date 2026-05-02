@@ -9,36 +9,71 @@ export const faqs: FAQ[] = [
   {
     question: "Who can participate in the STEMist Mathathon?",
     answer:
-      "The Mathathon is open to middle school students (grades 6–8) interested in math. Students of all skill levels are welcome — whether you're new to math competitions or a seasoned competitor.",
+      "Students in grades 3–8 are welcome to participate. The competition is split into two divisions (elementary and middle school) to keep things fair across age groups.",
   },
   {
-    question: "How much does it cost to participate?",
+    question: "Is there a fee to participate?",
     answer:
-      "Participation is completely free. STEMist Education is a 501(c)(3) nonprofit and we believe great STEM opportunities should be accessible to everyone.",
+      "No — the STEMist Mathathon is completely free to enter. Donations are always appreciated and help us keep running events like this.",
   },
   {
-    question: "Do I need to bring a team or can I sign up individually?",
+    question: "What should my child bring to the event?",
     answer:
-      "You can sign up individually! The Individual and Countdown rounds are solo, and we'll group solo participants into teams of four for the Power Round on the day of the event.",
+      "Just the essentials: a pencil, an eraser, and a water bottle. Calculators and other electronic devices are not permitted during the competition.",
   },
   {
-    question: "What should I bring to the event?",
+    question: "Are students allowed to use cell phones or other electronic devices during the test?",
     answer:
-      "Bring pencils, scratch paper, and a positive attitude. Calculators are not permitted on any round. Lunch and snacks will be provided.",
+      "No, electronic devices of any kind are not permitted during the competition rounds.",
   },
   {
-    question: "Will food be provided?",
+    question: "What difficulty level should we expect?",
     answer:
-      "Yes — lunch is included at 2:30 PM, along with light snacks and drinks throughout the day.",
+      "The problems are designed to reflect the difficulty of well-known math competitions such as Math Kangaroo and the AMC.",
   },
   {
-    question: "How are winners decided?",
+    question: "Will elementary students compete against middle schoolers?",
     answer:
-      "Top performers in each round receive recognition. Overall winners are determined by combined scores across the Individual, Power, and Countdown rounds. The top four individual scorers compete in the Countdown finale.",
+      "No. The competition is split into two divisions — elementary and middle school — to ensure a fair experience for everyone.",
   },
   {
-    question: "Where do I find more information about STEMist Education?",
+    question: "How are teams formed?",
     answer:
-      "Visit joinstemist.org for more about our courses, competitions, and community events worldwide.",
+      "Students are encouraged to form their own teams. Our volunteers will help create or merge teams as needed so that no one is left without a group.",
+  },
+  {
+    question: "Do parents need to stay throughout the event?",
+    answer:
+      "We kindly ask that parents do not stay during the event so that we can maximize space in the competition room for participants and volunteers.",
+  },
+  {
+    question: "When should I pick up my child?",
+    answer:
+      "The award ceremony begins at 4:30 PM and the event wraps up around 5:00 PM. Please plan to pick up your child shortly after.",
+  },
+  {
+    question: "Will all participants receive a certificate of participation?",
+    answer:
+      "Certificates are awarded to the top 3 students in each round and the top 2 teams overall, rather than to every participant.",
+  },
+  {
+    question: "When will we receive the competition results?",
+    answer:
+      "Certificate winners will be announced at the award ceremony, which begins at 4:30 PM.",
+  },
+  {
+    question: "Will the pizza be vegetarian or gluten-free? Are alternative food options provided?",
+    answer:
+      "We'll be serving cheese pizza from Costco. Unfortunately, we are not able to offer alternative food options at this event, so please plan accordingly if your child has dietary restrictions.",
+  },
+  {
+    question: "What is STEMist Education?",
+    answer:
+      "STEMist Education is a student-run, international 501(c)(3) nonprofit that offers hands-on STEM workshops, classes, and competitions to students around the world.",
+  },
+  {
+    question: "How can we hear about future STEMist events?",
+    answer:
+      "Visit joinstemist.org for the latest on our courses and competitions, and follow us on Instagram where we post updates about all of our upcoming events.",
   },
 ];
