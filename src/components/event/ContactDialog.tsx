@@ -6,7 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import { Mail } from "lucide-react";
+import { Mail, Loader2 } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
 
 const schema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -23,8 +24,9 @@ export const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
+  const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const parsed = schema.safeParse({ name, email, query });
     if (!parsed.success) {
@@ -32,19 +34,25 @@ export const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
       return;
     }
 
-    const subject = `Mathathon Mid-Event Contact — ${parsed.data.name}`;
-    const body = [
-      `Participant Name: ${parsed.data.name}`,
-      `Parent Email: ${parsed.data.email}`,
-      ``,
-      `Query:`,
-      parsed.data.query,
-    ].join("\n");
+    setSending(true);
+    try {
+      const { data, error } = await supabase.functions.invoke("send-contact-email", {
+        body: parsed.data,
+      });
+      if (error) throw error;
+      if (!data?.success) throw new Error(data?.error || "Failed to send");
 
-    const mailto = `mailto:ssharda@joinstemist.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
-    toast.success("Opening your email app…");
-    onOpenChange(false);
+      toast.success("Message sent! The team will reach out shortly.");
+      setName("");
+      setEmail("");
+      setQuery("");
+      onOpenChange(false);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Failed to send message";
+      toast.error(msg);
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -73,8 +81,8 @@ export const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             <Label htmlFor="c-query">Query</Label>
             <Textarea id="c-query" value={query} onChange={(e) => setQuery(e.target.value)} maxLength={2000} rows={4} placeholder="How can we help?" />
           </div>
-          <Button type="submit" variant="cta" className="w-full" size="lg">
-            Send Message
+          <Button type="submit" variant="cta" className="w-full" size="lg" disabled={sending}>
+            {sending ? (<><Loader2 className="h-4 w-4 animate-spin mr-2" /> Sending…</>) : "Send Message"}
           </Button>
           <p className="text-xs text-muted-foreground text-center">
             Sent to ssharda@joinstemist.org
