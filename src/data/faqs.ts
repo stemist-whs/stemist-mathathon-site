@@ -44,7 +44,7 @@ export const faqs: FAQ[] = [
   {
     question: "Do parents need to stay throughout the event?",
     answer:
-      "We kindly ask that parents do not stay during the event so that we can maximize space in the competition room for participants and volunteers.",
+      "We kindly ask that parents do not stay during the event so that we can maximize space in the competition room for participants and volunteers. You may watch the awards ceremony from outside the room if you would like.",
   },
   {
     question: "When should I pick up my child?",
