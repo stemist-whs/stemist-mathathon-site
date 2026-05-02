@@ -63,7 +63,7 @@ export const Hero = ({ onContactClick }: HeroProps) => {
         </div>
 
         <Button onClick={onContactClick} variant="cta" size="lg" className="animate-float-up" style={{ animationDelay: "0.4s" }}>
-          Mid-Event Contact
+          Event Contact Form
         </Button>
       </div>
     </header>
