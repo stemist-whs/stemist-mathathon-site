@@ -59,7 +59,7 @@ export const faqs: FAQ[] = [
   {
     question: "When will we receive the competition results?",
     answer:
-      "Certificate winners will be announced at the award ceremony, which begins at 4:30 PM.",
+      "Certificate winners will be announced at the award ceremony, which begins at 4:30 PM. Others will receive their score shortly after the competition ends.",
   },
   {
     question: "Will the pizza be vegetarian or gluten-free? Are alternative food options provided?",
