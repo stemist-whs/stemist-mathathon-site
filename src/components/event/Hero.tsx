@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Calendar, MapPin, Sparkles } from "lucide-react";
+import { Calendar, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 interface HeroProps {
   onContactClick: () => void;
@@ -11,8 +12,8 @@ export const Hero = ({ onContactClick }: HeroProps) => {
       {/* Top nav */}
       <nav className="relative z-10 flex items-center justify-between px-6 md:px-12 py-6">
         <a href="https://www.joinstemist.org/" target="_blank" rel="noreferrer" className="flex items-center gap-2 group">
-          <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-[var(--shadow-soft)]">
-            <Sparkles className="h-5 w-5 text-primary-foreground" />
+          <div className="h-9 w-9 rounded-xl bg-background flex items-center justify-center shadow-[var(--shadow-soft)] overflow-hidden">
+            <img src={logo} alt="STEMist Education logo" className="h-7 w-7 object-contain" />
           </div>
           <span className="font-bold text-lg tracking-tight">
             STEMist <span className="text-muted-foreground font-medium">Education</span>
