@@ -15,23 +15,23 @@ export const Schedule = () => {
 
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute left-[88px] md:left-[140px] top-2 bottom-2 w-px bg-gradient-to-b from-primary/40 via-accent/40 to-highlight/40" />
+        <div className="absolute left-[104px] md:left-[156px] top-2 bottom-2 w-px bg-gradient-to-b from-primary/40 via-accent/40 to-highlight/40" />
 
         <ol className="space-y-3">
           {schedule.map((item, i) => (
             <li
               key={i}
-              className="group relative grid grid-cols-[80px_1fr] md:grid-cols-[140px_1fr] gap-4 md:gap-8 items-start"
+              className="group relative grid grid-cols-[96px_1fr] md:grid-cols-[156px_1fr] gap-4 md:gap-8 items-start"
             >
               {/* Time */}
-              <div className="text-right pt-4">
-                <span className="font-mono text-sm md:text-base font-semibold text-foreground/70">
+              <div className="text-right pt-4 pr-1">
+                <span className="font-mono text-sm md:text-base font-semibold text-foreground/70 whitespace-nowrap">
                   {item.time}
                 </span>
               </div>
 
               {/* Dot */}
-              <div className="absolute left-[80px] md:left-[132px] top-5 z-10">
+              <div className="absolute left-[96px] md:left-[148px] top-5 z-10">
                 <div
                   className={`h-4 w-4 rounded-full border-2 border-background ring-2 transition-transform group-hover:scale-125 ${
                     item.highlight
