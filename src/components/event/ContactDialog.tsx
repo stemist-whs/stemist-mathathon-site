@@ -62,7 +62,7 @@ export const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
           <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-2">
             <Mail className="h-6 w-6 text-primary-foreground" />
           </div>
-          <DialogTitle className="font-serif text-3xl">Mid-Event Contact</DialogTitle>
+          <DialogTitle className="font-serif text-3xl">Event Contact Form</DialogTitle>
           <DialogDescription>
             Need to reach the organizing team during the event? Send us a quick message and we'll respond as soon as possible.
           </DialogDescription>
