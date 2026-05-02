@@ -65,6 +65,9 @@ export const Hero = ({ onContactClick }: HeroProps) => {
         <Button onClick={onContactClick} variant="cta" size="lg" className="animate-float-up" style={{ animationDelay: "0.4s" }}>
           Event Contact Form
         </Button>
+        <p className="max-w-md text-sm text-muted-foreground mt-4 animate-float-up" style={{ animationDelay: "0.5s" }}>
+          Use the event contact form for any questions regarding the event. Before reaching out, please check the <a href="#faq" className="text-primary underline hover:text-primary/80 transition-colors">FAQ</a>.
+        </p>
       </div>
     </header>
   );
