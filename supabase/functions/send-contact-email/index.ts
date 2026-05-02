@@ -64,7 +64,7 @@ Deno.serve(async (req) => {
       },
       body: JSON.stringify({
         from: "STEMist Mathathon <onboarding@resend.dev>",
-        to: ["ssharda@joinstemist.org"],
+        to: ["shivsai1811@gmail.com"],
         reply_to: email,
         subject: `Mathathon Mid-Event Contact — ${name}`,
         html,
