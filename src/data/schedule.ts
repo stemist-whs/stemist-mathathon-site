@@ -12,5 +12,5 @@ export const schedule: ScheduleItem[] = [
   { time: "3:00 PM", title: "Power Round", highlight: true, description: "45 minutes — teams of four collaborate on a chained problem set." },
   { time: "4:00 PM", title: "Activity", description: "A fun group activity while scores are tallied." },
   { time: "4:15 PM", title: "Countdown Round", highlight: true, description: "15 minutes — top four individual scorers face off, buzzer-style." },
-  { time: "1:00 PM ", title: "Award Ceremony", description: "Recognition and awards for top performers." },
+  { time: "4:30 PM ", title: "Award Ceremony", description: "Recognition and awards for top performers." },
 ];
