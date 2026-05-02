@@ -1,16 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import { Hero } from "@/components/event/Hero";
+import { EventDetails } from "@/components/event/EventDetails";
+import { Schedule } from "@/components/event/Schedule";
+import { Rounds } from "@/components/event/Rounds";
+import { About } from "@/components/event/About";
+import { FAQSection } from "@/components/event/FAQSection";
+import { Footer } from "@/components/event/Footer";
+import { ContactDialog } from "@/components/event/ContactDialog";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  const [contactOpen, setContactOpen] = useState(false);
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="min-h-screen bg-background">
+      <Hero onContactClick={() => setContactOpen(true)} />
+      <EventDetails />
+      <Schedule />
+      <Rounds />
+      <About />
+      <FAQSection />
+      <Footer />
+      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
