@@ -6,7 +6,7 @@ export const Schedule = () => {
       <div className="text-center mb-16">
         <span className="text-xs uppercase tracking-[0.25em] text-primary font-bold">The day of</span>
         <h2 className="font-serif text-5xl md:text-6xl mt-3">
-          Contest <span className="italic text-gradient">Schedule</span>
+          Contest <span className="text-gradient">Schedule</span>
         </h2>
         <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
           Four hours of math, teamwork, and friendly competition.

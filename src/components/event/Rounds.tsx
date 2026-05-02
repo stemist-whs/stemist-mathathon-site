@@ -33,7 +33,7 @@ export const Rounds = () => {
       <div className="text-center mb-16">
         <span className="text-xs uppercase tracking-[0.25em] text-primary font-bold">Three rounds</span>
         <h2 className="font-serif text-5xl md:text-6xl mt-3">
-          The <span className="italic text-gradient">Competition</span>
+          The <span className="text-gradient">Competition</span>
         </h2>
       </div>
 
@@ -53,7 +53,7 @@ export const Rounds = () => {
             </div>
             <h3 className="text-2xl font-bold mb-3">{r.name}</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">{r.desc}</p>
-            <div className="absolute top-6 right-6 font-serif italic text-5xl text-foreground/10 select-none">
+            <div className="absolute top-6 right-6 font-serif text-5xl text-foreground/10 select-none">
               0{i + 1}
             </div>
           </div>

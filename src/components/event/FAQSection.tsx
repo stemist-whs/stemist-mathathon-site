@@ -12,7 +12,7 @@ export const FAQSection = () => {
       <div className="text-center mb-12">
         <span className="text-xs uppercase tracking-[0.25em] text-primary font-bold">Questions</span>
         <h2 className="font-serif text-5xl md:text-6xl mt-3">
-          Frequently <span className="italic text-gradient">Asked</span>
+          Frequently <span className="text-gradient">Asked</span>
         </h2>
       </div>
 
