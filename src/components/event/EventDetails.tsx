@@ -4,7 +4,7 @@ const details = [
   { icon: Calendar, label: "Date", value: "Sunday, May 17" },
   { icon: Clock, label: "Time", value: "1:00 – 5:00 PM" },
   { icon: MapPin, label: "Location", value: "Newark Library", sub: "37055 Newark Blvd, Newark, CA 94560" },
-  { icon: Users, label: "Who", value: "Middle school students" },
+  { icon: Users, label: "Who", value: "Elementary & middle school students" },
 ];
 
 export const EventDetails = () => {
