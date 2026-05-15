@@ -1,0 +1,211 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - link "STEMist Education logo STEMist Education" [ref=e6] [cursor=pointer]:
+          - /url: https://www.joinstemist.org/
+          - img "STEMist Education logo" [ref=e8]
+          - generic [ref=e9]: STEMist Education
+        - generic [ref=e10]:
+          - link "Schedule" [ref=e11] [cursor=pointer]:
+            - /url: "#schedule"
+          - link "Rounds" [ref=e12] [cursor=pointer]:
+            - /url: "#rounds"
+          - link "FAQ" [ref=e13] [cursor=pointer]:
+            - /url: "#faq"
+        - button "Event Contact Form" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - generic [ref=e16]: STEMist Education presents
+        - heading "STEMist Mathathon" [level=1] [ref=e18]:
+          - text: STEMist
+          - text: Mathathon
+        - paragraph [ref=e19]: A one-day middle school math competition featuring individual, team, and buzzer rounds — hosted by the Bay Area's largest student-run STEM nonprofit.
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - generic [ref=e24]:
+              - generic [ref=e25]: Date & Time
+              - generic [ref=e26]: Sunday, May 17 · 1–5 PM
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - generic [ref=e32]: Location
+              - generic [ref=e33]: Newark Library, Newark, CA
+        - button "Event Contact Form" [ref=e34] [cursor=pointer]
+        - paragraph [ref=e35]:
+          - text: Use the event contact form for any questions regarding the event. Before reaching out, please check the
+          - link "FAQ" [ref=e36] [cursor=pointer]:
+            - /url: "#faq"
+          - text: .
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e41]
+        - generic [ref=e43]: Date
+        - generic [ref=e44]: Sunday, May 17
+      - generic [ref=e45]:
+        - img [ref=e47]
+        - generic [ref=e50]: Time
+        - generic [ref=e51]: 1:00 – 5:00 PM
+      - generic [ref=e52]:
+        - img [ref=e54]
+        - generic [ref=e57]: Location
+        - generic [ref=e58]: Newark Library
+        - generic [ref=e59]: 37055 Newark Blvd, Newark, CA 94560
+      - generic [ref=e60]:
+        - img [ref=e62]
+        - generic [ref=e67]: Who
+        - generic [ref=e68]: Elementary & middle school students
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - text: The day of
+        - heading "Contest Schedule" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Four hours of math, teamwork, and friendly competition.
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - generic [ref=e77]: 1:00 PM
+          - generic [ref=e80]:
+            - heading "Opening Ceremony" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Welcome, rules overview, and round previews.
+        - listitem [ref=e84]:
+          - generic [ref=e85]: 1:30 PM
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - heading "Power Round" [level=3] [ref=e90]
+              - generic [ref=e91]: Round
+            - paragraph [ref=e92]: 45 minutes — teams of four collaborate on a chained problem set.
+        - listitem [ref=e93]:
+          - generic [ref=e94]: 2:30 PM
+          - generic [ref=e97]:
+            - heading "Lunch" [level=3] [ref=e99]
+            - paragraph [ref=e100]: Lunch provided for all participants.
+        - listitem [ref=e101]:
+          - generic [ref=e102]: 3:00 PM
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Individual Round" [level=3] [ref=e107]
+              - generic [ref=e108]: Round
+            - paragraph [ref=e109]: 40 minutes — solve independently. Tests your own reasoning and problem solving.
+        - listitem [ref=e110]:
+          - generic [ref=e111]: 4:00 PM
+          - generic [ref=e114]:
+            - heading "Activity" [level=3] [ref=e116]
+            - paragraph [ref=e117]: A fun group activity while scores are tallied.
+        - listitem [ref=e118]:
+          - generic [ref=e119]: 4:15 PM
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - heading "Countdown Round" [level=3] [ref=e124]
+              - generic [ref=e125]: Round
+            - paragraph [ref=e126]: 15 minutes — top four individual scorers face off, buzzer-style.
+        - listitem [ref=e127]:
+          - generic [ref=e128]: 4:30 PM
+          - generic [ref=e131]:
+            - heading "Award Ceremony" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Recognition and awards for top performers.
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - text: Three rounds
+        - heading "The Competition" [level=2] [ref=e137]
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img [ref=e142]
+            - generic [ref=e147]: 45 min
+          - heading "Power Round" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Teams of four collaborate on a small set of challenging problems that build on each other. Emphasizes teamwork, strategy, and deep problem-solving.
+          - generic [ref=e150]: "01"
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - generic [ref=e164]: 40 min
+          - heading "Individual Round" [level=3] [ref=e165]
+          - paragraph [ref=e166]: Participants independently solve a series of math problems. Your own reasoning and problem-solving skills will be tested.
+          - generic [ref=e167]: "02"
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - generic [ref=e173]: 15 min
+          - heading "Countdown Round" [level=3] [ref=e174]
+          - paragraph [ref=e175]: The top four individual scorers face off in a buzzer-style bracket — first to two advances, first to three wins the finale. Quick thinking is everything.
+          - generic [ref=e176]: "03"
+    - generic [ref=e181]:
+      - text: About the host
+      - heading "STEMist Education" [level=2] [ref=e182]
+      - paragraph [ref=e183]: STEMist Education is an international, student-run 501(c)(3) nonprofit based in the Bay Area, dedicated to accelerating interest in Science, Technology, Engineering, and Math for young students through engaging courses, competitions, and community events.
+      - link "Visit joinstemist.org →" [ref=e184] [cursor=pointer]:
+        - /url: https://www.joinstemist.org/
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - text: Questions
+        - heading "Frequently Asked" [level=2] [ref=e187]
+      - generic [ref=e188]:
+        - heading "Who can participate in the STEMist Mathathon?" [level=3] [ref=e190]:
+          - button "Who can participate in the STEMist Mathathon?" [ref=e191] [cursor=pointer]:
+            - text: Who can participate in the STEMist Mathathon?
+            - img [ref=e192]
+        - heading "Is there a fee to participate?" [level=3] [ref=e195]:
+          - button "Is there a fee to participate?" [ref=e196] [cursor=pointer]:
+            - text: Is there a fee to participate?
+            - img [ref=e197]
+        - heading "What should my child bring to the event?" [level=3] [ref=e200]:
+          - button "What should my child bring to the event?" [ref=e201] [cursor=pointer]:
+            - text: What should my child bring to the event?
+            - img [ref=e202]
+        - heading "Are students allowed to use cell phones or other electronic devices during the test?" [level=3] [ref=e205]:
+          - button "Are students allowed to use cell phones or other electronic devices during the test?" [ref=e206] [cursor=pointer]:
+            - text: Are students allowed to use cell phones or other electronic devices during the test?
+            - img [ref=e207]
+        - heading "What difficulty level should we expect?" [level=3] [ref=e210]:
+          - button "What difficulty level should we expect?" [ref=e211] [cursor=pointer]:
+            - text: What difficulty level should we expect?
+            - img [ref=e212]
+        - heading "Will elementary students compete against middle schoolers?" [level=3] [ref=e215]:
+          - button "Will elementary students compete against middle schoolers?" [ref=e216] [cursor=pointer]:
+            - text: Will elementary students compete against middle schoolers?
+            - img [ref=e217]
+        - heading "How are teams formed?" [level=3] [ref=e220]:
+          - button "How are teams formed?" [ref=e221] [cursor=pointer]:
+            - text: How are teams formed?
+            - img [ref=e222]
+        - heading "Do parents need to stay throughout the event?" [level=3] [ref=e225]:
+          - button "Do parents need to stay throughout the event?" [ref=e226] [cursor=pointer]:
+            - text: Do parents need to stay throughout the event?
+            - img [ref=e227]
+        - heading "When should I pick up my child?" [level=3] [ref=e230]:
+          - button "When should I pick up my child?" [ref=e231] [cursor=pointer]:
+            - text: When should I pick up my child?
+            - img [ref=e232]
+        - heading "Will all participants receive a certificate of participation?" [level=3] [ref=e235]:
+          - button "Will all participants receive a certificate of participation?" [ref=e236] [cursor=pointer]:
+            - text: Will all participants receive a certificate of participation?
+            - img [ref=e237]
+        - heading "When will we receive the competition results?" [level=3] [ref=e240]:
+          - button "When will we receive the competition results?" [ref=e241] [cursor=pointer]:
+            - text: When will we receive the competition results?
+            - img [ref=e242]
+        - heading "Will the pizza be vegetarian or gluten-free? Are alternative food options provided?" [level=3] [ref=e245]:
+          - button "Will the pizza be vegetarian or gluten-free? Are alternative food options provided?" [ref=e246] [cursor=pointer]:
+            - text: Will the pizza be vegetarian or gluten-free? Are alternative food options provided?
+            - img [ref=e247]
+        - heading "What is STEMist Education?" [level=3] [ref=e250]:
+          - button "What is STEMist Education?" [ref=e251] [cursor=pointer]:
+            - text: What is STEMist Education?
+            - img [ref=e252]
+        - heading "How can we hear about future STEMist events?" [level=3] [ref=e255]:
+          - button "How can we hear about future STEMist events?" [ref=e256] [cursor=pointer]:
+            - text: How can we hear about future STEMist events?
+            - img [ref=e257]
+      - paragraph [ref=e259]:
+        - text: Have another question?
+        - link "Email us" [ref=e260] [cursor=pointer]:
+          - /url: mailto:ssharda@joinstemist.org
+    - generic [ref=e262]:
+      - generic [ref=e263]: © 2026 STEMist Education · 501(c)(3) nonprofit
+      - generic [ref=e264]:
+        - link "joinstemist.org" [ref=e265] [cursor=pointer]:
+          - /url: https://www.joinstemist.org/
+        - link "Contact" [ref=e266] [cursor=pointer]:
+          - /url: mailto:ssharda@joinstemist.org
