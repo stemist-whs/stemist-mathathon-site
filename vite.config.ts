@@ -4,7 +4,10 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode, command }) => ({
+  // Production: relative asset URLs so the site works under any path (e.g. https://fqdn/app/docs/).
+  // Dev keeps "/" so module resolution and HMR behave normally.
+  base: command === "build" ? "./" : "/",
   server: {
     host: "::",
     port: 8080,
